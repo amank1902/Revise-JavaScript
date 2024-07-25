@@ -22,4 +22,4 @@ val = 10;
 console.log(val);
 
 const check = 4;
-check = 8;
+//check = 8;
