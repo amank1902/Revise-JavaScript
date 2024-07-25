@@ -3,7 +3,7 @@ function addnum(a , b){
     var add = a+b;
     console.log(add);
 }
-addnum();
+addnum(a,b);
 
 var subtract = a - b;
 console.log(subtract);
