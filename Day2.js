@@ -3,12 +3,7 @@ function addnum(a, b) {
     var add = a + b;
     console.log(add);
 }
-<<<<<<< HEAD
-addnum(a, b);
-=======
 addnum(a,b);
->>>>>>> 105e722b01f296c39b56ac7f686b6799eef88a10
-
 var subtract = a - b;
 console.log(subtract);
 var mul = a * b;
@@ -40,7 +35,6 @@ function checkGreater(c, d) {
 }
 checkGreater(c, d);
 
-<<<<<<< HEAD
 function dataType(c, d) {
     if (c === d)
         console.log("c is equal to d and has same data type")
@@ -54,10 +48,4 @@ dataType(c,d);
 function checkInt(a) {
     (a > 0) ? console.log("a is positive") : console.log("a is negative");
 }
-checkInt(a)
-=======
-if(c==d)
-    console.log("c is equal to d")
-if(c===d)
-    console.log("c is equal to d and has same data type")
->>>>>>> 105e722b01f296c39b56ac7f686b6799eef88a10
+checkInt(a);
