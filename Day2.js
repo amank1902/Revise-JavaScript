@@ -4,8 +4,13 @@ function addnum(a, b) {
     console.log(add);
 }
 addnum(a,b);
-var subtract = a - b;
-console.log(subtract);
+
+function subtractnum(a, b) {
+    var subtract = a - b;
+    console.log(subtract);
+}
+subtractnum(a,b);
+
 var mul = a * b;
 console.log(mul);
 var div = a / b;
