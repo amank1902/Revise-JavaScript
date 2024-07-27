@@ -1,9 +1,9 @@
 var a = 7, b = 6;
-function addnum(a , b){
-    var add = a+b;
+function addnum(a, b) {
+    var add = a + b;
     console.log(add);
 }
-addnum();
+addnum(a, b);
 
 var subtract = a - b;
 console.log(subtract);
@@ -27,13 +27,26 @@ if (a > b)
 else
     console.log("b is greater")
 
-var c = 10, d = "10";
-if(c >= d)
-    console.log("c is greater than or equal to d");
-else
-    console.log("d is greater than or equal to c")
+var c = 10, d = "9";
+function checkGreater(c, d) {
+    if (c >= d)
+        console.log("c is greater than or equal to d");
+    else
+        console.log("d is greater than or equal to c")
+}
+checkGreater(c, d);
 
-if(c==d)
-    console.log("c is equal to d")
-if(c===d)
-    console.log("c is equal to d and has same data type")
+function dataType(c, d) {
+    if (c === d)
+        console.log("c is equal to d and has same data type")
+    else if (c == d)
+        console.log("c is equal to d")
+    else
+        console.log("c is not equal to d")
+}
+dataType(c,d);
+
+function checkInt(a) {
+    (a > 0) ? console.log("a is positive") : console.log("a is negative");
+}
+checkInt(a);
