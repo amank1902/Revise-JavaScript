@@ -49,4 +49,4 @@ dataType(c,d);
 function checkInt(a) {
     (a > 0) ? console.log("a is positive") : console.log("a is negative");
 }
-checkInt(a);
+checkInt(a)
